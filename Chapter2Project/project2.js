@@ -1,53 +1,53 @@
 /* Grace Cunninghame 10/17/2024 */
 
-// creating a variable with my full name as the string 
+// create and initialize a string variable named myName with your full name
 let myName = 'Gracalynn Cunningham';
-// assigning the variable to the <p> tag with the id of p1
+// create and initialize a variable named para1 and set it equal to document.getElementById("p1");
 let para1 = document.getElementById('p1');
 
-// overrides the text content in <p> to my name saved in a string
+// set para1.textContent = myName
 para1.textContent = myName;
 
 /* BREAK */
 
-// assigning numbers to two variables
+// create and initialize two number variables with the names n1 and n2 using any numeric values desired
 let n1 = 13;
 let n2 = 8;
 
-// a variable that is the sum of the two above numbers
+// create and initialize a variable named numberSum to add the two numbers using their variable names
 let numberSum = n1 + n2;
 
-// overrides the text content in <p> with ID of p2 to the sum above
+// set document.getElementById("p2").textContent = numberSum;
 document.getElementById("p2").textContent = numberSum;
 
 /* BREAK */
 
-// a variable that is the product of the two above numbers
+// create and initialize a variable named numberMult to multiply the two numbers using their variable names.
 let numberMult = n1 * n2;
 
-// overrides the text content in <p> with ID of p3 to the sum above
+// set document.getElementById("p3").textContent = numberMult;
 document.getElementById("p3").textContent = numberMult;
 
 /* BREAK */
 
-// a variable that concatenating an above number to the end of my name string
+// create and initialize a variable named myNameAddNum to add one of your numeric variables to the string variable
 let myNameAddNum = myName + n1;
 
-// overrides the text content in <p> with ID of p4 to the concatenation above
+// set document.getElementById("p4").textContent = myNameAddNum;
 document.getElementById("p4").textContent = myNameAddNum;
 
 /* BREAK */
 
-// NaN
+// create and initialize a variable named myNameMultNum to multiply one of your numeric variables to the string variable
 let myNameMultNum = myName * n2;
 
-// overrides the text content in <p> with ID of p4 to the error variable NaN above
+// set document.getElementById("p5").textContent = myNameMultNum;
 document.getElementById("p5").textContent = myNameMultNum;
 
 /* BREAK */
 
-// a variable that stores the boolean determination of whether my age is greater than the numberMult variable
+// create and initialize a variable named ageCompare to compare your age (you can use a made-up, but realistic value) to the multiplication of your numeric variables (hint, use <, <=, >, or >= to do a comparison. The comparison will evaluate true or false).
 let ageCompare = 26 > numberMult;
 
-// overrides the text content in <p> with ID of p4 to the boolean determination above
+// set document.getElementById("p6").textContent = ageCompare;
 document.getElementById("p6").textContent = ageCompare;
